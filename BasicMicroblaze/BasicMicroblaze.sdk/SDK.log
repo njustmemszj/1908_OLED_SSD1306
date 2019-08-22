@@ -1,0 +1,194 @@
+14:18:16 INFO  : Registering command handlers for SDK TCF services
+14:18:16 INFO  : Launching XSCT server: xsct.bat -interactive D:\01_Xilinx_FPGA\00_BasicMicroblaze\BasicMicroblaze\BasicMicroblaze.sdk\temp_xsdb_launch_script.tcl
+14:18:20 INFO  : XSCT server has started successfully.
+14:18:20 INFO  : Successfully done setting XSCT server connection channel  
+14:18:21 INFO  : Successfully done setting SDK workspace  
+14:18:21 INFO  : Processing command line option -hwspec D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/design_1_wrapper.hdf.
+14:19:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 0' command is executed.
+14:19:47 INFO  : 'fpga -state' command is executed.
+14:19:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:19:47 INFO  : Jtag cable 'Platform Cable USB 00000000000000' is selected.
+14:19:47 INFO  : 'jtag frequency' command is executed.
+14:19:47 INFO  : Context for processor 'microblaze_0' is selected.
+14:19:59 INFO  : Processor reset is completed for 'microblaze_0'.
+14:20:00 INFO  : Context for processor 'microblaze_0' is selected.
+14:20:00 ERROR : Memory write error at 0x0. MicroBlaze instruction insert overrun
+14:20:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+dow D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf
+----------------End of Script----------------
+
+14:20:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:20:17 INFO  : Jtag cable 'Platform Cable USB 00000000000000' is selected.
+14:20:17 INFO  : 'jtag frequency' command is executed.
+14:20:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 0' command is executed.
+14:20:22 INFO  : FPGA configured successfully with bitstream "D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:20:22 INFO  : Context for processor 'microblaze_0' is selected.
+14:20:22 INFO  : System reset is completed.
+14:20:25 INFO  : 'after 3000' command is executed.
+14:20:25 INFO  : Context for processor 'microblaze_0' is selected.
+14:20:26 INFO  : The application 'D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf' is downloaded to processor 'microblaze_0'.
+14:20:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 0
+fpga -file D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+dow D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf
+----------------End of Script----------------
+
+14:20:26 INFO  : Memory regions updated for context MicroBlaze #0
+14:20:26 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+14:20:26 INFO  : Context for processor 'microblaze_0' is selected.
+14:20:27 INFO  : 'con' command is executed.
+14:20:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+con
+----------------End of Script----------------
+
+14:20:27 INFO  : Launch script is exported to file 'D:\01_Xilinx_FPGA\00_BasicMicroblaze\BasicMicroblaze\BasicMicroblaze.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_app.elf_on_local.tcl'
+14:42:42 INFO  : Disconnected from the channel tcfchan#1.
+14:42:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 0' command is executed.
+14:42:43 INFO  : 'fpga -state' command is executed.
+14:42:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:43 INFO  : Jtag cable 'Platform Cable USB 00000000000000' is selected.
+14:42:43 INFO  : 'jtag frequency' command is executed.
+14:42:43 INFO  : Context for processor 'microblaze_0' is selected.
+14:42:44 INFO  : Processor reset is completed for 'microblaze_0'.
+14:42:44 INFO  : Context for processor 'microblaze_0' is selected.
+14:42:44 INFO  : The application 'D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf' is downloaded to processor 'microblaze_0'.
+14:42:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+dow D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf
+----------------End of Script----------------
+
+14:42:44 INFO  : Memory regions updated for context MicroBlaze #0
+14:42:44 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+14:42:44 INFO  : Context for processor 'microblaze_0' is selected.
+14:42:44 INFO  : 'con' command is executed.
+14:42:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+con
+----------------End of Script----------------
+
+14:42:44 INFO  : Launch script is exported to file 'D:\01_Xilinx_FPGA\00_BasicMicroblaze\BasicMicroblaze\BasicMicroblaze.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_app.elf_on_local.tcl'
+14:43:50 INFO  : Disconnected from the channel tcfchan#2.
+14:43:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 0' command is executed.
+14:43:51 INFO  : 'fpga -state' command is executed.
+14:43:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:43:52 INFO  : Jtag cable 'Platform Cable USB 00000000000000' is selected.
+14:43:52 INFO  : 'jtag frequency' command is executed.
+14:43:52 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:52 INFO  : Processor reset is completed for 'microblaze_0'.
+14:43:52 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:52 INFO  : The application 'D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf' is downloaded to processor 'microblaze_0'.
+14:43:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+dow D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf
+----------------End of Script----------------
+
+14:43:52 INFO  : Memory regions updated for context MicroBlaze #0
+14:43:52 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+14:43:53 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:53 INFO  : 'con' command is executed.
+14:43:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+con
+----------------End of Script----------------
+
+14:43:53 INFO  : Launch script is exported to file 'D:\01_Xilinx_FPGA\00_BasicMicroblaze\BasicMicroblaze\BasicMicroblaze.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_app.elf_on_local.tcl'
+14:44:29 INFO  : Disconnected from the channel tcfchan#3.
+14:44:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 0' command is executed.
+14:44:30 INFO  : 'fpga -state' command is executed.
+14:44:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:44:30 INFO  : Jtag cable 'Platform Cable USB 00000000000000' is selected.
+14:44:30 INFO  : 'jtag frequency' command is executed.
+14:44:31 INFO  : Context for processor 'microblaze_0' is selected.
+14:44:31 INFO  : Processor reset is completed for 'microblaze_0'.
+14:44:31 INFO  : Context for processor 'microblaze_0' is selected.
+14:44:31 INFO  : The application 'D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf' is downloaded to processor 'microblaze_0'.
+14:44:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+dow D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf
+----------------End of Script----------------
+
+14:44:31 INFO  : Memory regions updated for context MicroBlaze #0
+14:44:31 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+14:44:31 INFO  : Context for processor 'microblaze_0' is selected.
+14:44:31 INFO  : 'con' command is executed.
+14:44:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+con
+----------------End of Script----------------
+
+14:44:31 INFO  : Launch script is exported to file 'D:\01_Xilinx_FPGA\00_BasicMicroblaze\BasicMicroblaze\BasicMicroblaze.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_app.elf_on_local.tcl'
+14:45:56 INFO  : Disconnected from the channel tcfchan#4.
+14:45:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 0' command is executed.
+14:45:57 INFO  : 'fpga -state' command is executed.
+14:45:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:45:57 INFO  : Jtag cable 'Platform Cable USB 00000000000000' is selected.
+14:45:57 INFO  : 'jtag frequency' command is executed.
+14:45:57 INFO  : Context for processor 'microblaze_0' is selected.
+14:45:57 INFO  : Processor reset is completed for 'microblaze_0'.
+14:45:57 INFO  : Context for processor 'microblaze_0' is selected.
+14:45:58 INFO  : The application 'D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf' is downloaded to processor 'microblaze_0'.
+14:45:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+dow D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf
+----------------End of Script----------------
+
+14:45:58 INFO  : Memory regions updated for context MicroBlaze #0
+14:45:58 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+14:45:58 INFO  : Context for processor 'microblaze_0' is selected.
+14:45:58 INFO  : 'con' command is executed.
+14:45:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+con
+----------------End of Script----------------
+
+14:45:58 INFO  : Launch script is exported to file 'D:\01_Xilinx_FPGA\00_BasicMicroblaze\BasicMicroblaze\BasicMicroblaze.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_app.elf_on_local.tcl'
+14:52:37 INFO  : Disconnected from the channel tcfchan#5.
+14:52:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 0' command is executed.
+14:52:39 INFO  : 'fpga -state' command is executed.
+14:52:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:52:39 INFO  : Jtag cable 'Platform Cable USB 00000000000000' is selected.
+14:52:39 INFO  : 'jtag frequency' command is executed.
+14:52:39 INFO  : Context for processor 'microblaze_0' is selected.
+14:52:39 INFO  : Processor reset is completed for 'microblaze_0'.
+14:52:39 INFO  : Context for processor 'microblaze_0' is selected.
+14:52:39 INFO  : The application 'D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf' is downloaded to processor 'microblaze_0'.
+14:52:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+dow D:/01_Xilinx_FPGA/00_BasicMicroblaze/BasicMicroblaze/BasicMicroblaze.sdk/APP/Debug/APP.elf
+----------------End of Script----------------
+
+14:52:40 INFO  : Memory regions updated for context MicroBlaze #0
+14:52:40 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+14:52:40 INFO  : Context for processor 'microblaze_0' is selected.
+14:52:40 INFO  : 'con' command is executed.
+14:52:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Platform Cable USB 00000000000000"} -index 0
+con
+----------------End of Script----------------
+
+14:52:40 INFO  : Launch script is exported to file 'D:\01_Xilinx_FPGA\00_BasicMicroblaze\BasicMicroblaze\BasicMicroblaze.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_app.elf_on_local.tcl'
