@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../../IPSRC/charLib/charLib/sim/charLib.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

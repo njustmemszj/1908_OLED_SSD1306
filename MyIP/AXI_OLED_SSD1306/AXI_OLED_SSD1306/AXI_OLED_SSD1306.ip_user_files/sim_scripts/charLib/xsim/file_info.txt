@@ -1,0 +1,2 @@
+charLib.v,verilog,xil_defaultlib,../../../../../IPSRC/charLib/charLib/sim/charLib.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

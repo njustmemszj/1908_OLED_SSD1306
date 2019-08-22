@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Aug 22 14:11:49 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="e3b8e20e65f245578c0b676723c20149" type="ProjectID"/>
+<property name="ProjectIteration" value="2" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="4" type="JavaHandler"/>
+<property name="CoreView" value="2" type="JavaHandler"/>
+<property name="CustomizeCore" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="IPPackagerWizardHandler" value="2" type="JavaHandler"/>
+<property name="RecustomizeCore" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="AbstractCombinedPanel_ADD_ELEMENT" value="3" type="GuiHandlerData"/>
+<property name="BaseDialog_CANCEL" value="3" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="5" type="GuiHandlerData"/>
+<property name="CoreTreeTablePanel_CORE_TREE_TABLE" value="4" type="GuiHandlerData"/>
+<property name="CustomizeCoreDialog_CHOOSE_IP_LOCATION" value="1" type="GuiHandlerData"/>
+<property name="CustomizeCoreDialog_IP_LOCATION" value="1" type="GuiHandlerData"/>
+<property name="FamilySupportTable_ADD_FAMILY_EXPLICITLY" value="2" type="GuiHandlerData"/>
+<property name="FamilySupportTable_ADD_FAMILY_USING_REGULAR_EXPRESSION" value="1" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="75" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="5" type="GuiHandlerData"/>
+<property name="HACGCCoeFileDialog_CLOSE" value="1" type="GuiHandlerData"/>
+<property name="HACGCCoeFileWidget_BROWSE" value="2" type="GuiHandlerData"/>
+<property name="HACGCCoeFileWidget_EDIT" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_REPORT" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TOOLS" value="4" type="GuiHandlerData"/>
+<property name="ManualSelectionPanel_FPGA_PARTS" value="1" type="GuiHandlerData"/>
+<property name="NewIpWizard_ADD_NEW_INTERFACE" value="2" type="GuiHandlerData"/>
+<property name="NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4" value="1" type="GuiHandlerData"/>
+<property name="NewIpWizard_DELETE_SELECTED_INTERFACE" value="2" type="GuiHandlerData"/>
+<property name="NewIpWizard_IP_DEFINITION_SOURCE_LOCATION" value="2" type="GuiHandlerData"/>
+<property name="NewIpWizard_NUMBER_OF_REGISTERS" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_ADD_SOURCES" value="4" type="GuiHandlerData"/>
+<property name="PACommandNames_AUTO_UPDATE_HIER" value="5" type="GuiHandlerData"/>
+<property name="PACommandNames_IP_PACKAGER_WIZARD" value="2" type="GuiHandlerData"/>
+<property name="PackagerStepsPanel_PACKAGER_STEPS_LIST" value="8" type="GuiHandlerData"/>
+<property name="RDICommands_DELETE" value="2" type="GuiHandlerData"/>
+<property name="ReviewContentPanel_PACKAGE_IP" value="1" type="GuiHandlerData"/>
+<property name="SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY" value="1" type="GuiHandlerData"/>
+<property name="SrcChooserPanel_ADD_DIRECTORIES" value="1" type="GuiHandlerData"/>
+<property name="SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE" value="1" type="GuiHandlerData"/>
+<property name="SrcMenu_IP_HIERARCHY" value="5" type="GuiHandlerData"/>
+</item>
+</section>
+</application>
+</document>

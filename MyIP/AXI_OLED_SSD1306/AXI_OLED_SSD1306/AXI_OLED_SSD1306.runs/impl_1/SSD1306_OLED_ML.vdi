@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Aug 22 14:11:57 2019
+# Process ID: 12604
+# Current directory: D:/01_Xilinx_FPGA/00_BasicMicroblaze/MyIP/AXI_OLED_SSD1306/AXI_OLED_SSD1306/AXI_OLED_SSD1306.runs/impl_1
+# Command line: vivado.exe -log SSD1306_OLED_ML.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SSD1306_OLED_ML.tcl -notrace
+# Log file: D:/01_Xilinx_FPGA/00_BasicMicroblaze/MyIP/AXI_OLED_SSD1306/AXI_OLED_SSD1306/AXI_OLED_SSD1306.runs/impl_1/SSD1306_OLED_ML.vdi
+# Journal file: D:/01_Xilinx_FPGA/00_BasicMicroblaze/MyIP/AXI_OLED_SSD1306/AXI_OLED_SSD1306/AXI_OLED_SSD1306.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SSD1306_OLED_ML.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step init_design"
+    (file "SSD1306_OLED_ML.tcl" line 65)
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 22 14:12:07 2019...

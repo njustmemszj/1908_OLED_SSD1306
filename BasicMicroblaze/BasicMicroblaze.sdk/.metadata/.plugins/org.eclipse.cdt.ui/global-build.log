@@ -1,0 +1,317 @@
+14:19:01 **** Build of project APP_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/iic_v3_4/src"
+make -C microblaze_0/libsrc/iic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/spi_v4_3/src"
+make -C microblaze_0/libsrc/spi_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+
+**** Build of configuration Debug for project APP ****
+
+Nothing to build for project APP
+14:19:29 **** Auto Build of configuration Debug for project APP ****
+make all 
+'Building file: ../src/OLED.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OLED.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/OLED.d" -MT"src/OLED.o" -o "src/OLED.o" "../src/OLED.c"
+'Finished building: ../src/OLED.c'
+' '
+'Building file: ../src/SysInitialize.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SysInitialize.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/SysInitialize.d" -MT"src/SysInitialize.o" -o "src/SysInitialize.o" "../src/SysInitialize.c"
+'Finished building: ../src/SysInitialize.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:10:0:
+../../APP_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../APP_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:37:5: warning: variable 'sendbuf' set but not used [-Wunused-but-set-variable]
+  u8 sendbuf[TEST_BUFFER_SIZE];
+     ^~~~~~~
+../src/main.c:35:5: warning: variable 'tx_count' set but not used [-Wunused-but-set-variable]
+  u8 tx_count;
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: APP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../APP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "APP.elf"  ./src/OLED.o ./src/SysInitialize.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP.elf  |tee "APP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18748	    460	   3584	  22792	   5908	APP.elf
+'Finished building: APP.elf.size'
+' '
+14:19:44 **** Incremental Build of configuration Debug for project APP ****
+make all 
+make: Nothing to be done for `all'.
+14:20:16 **** Incremental Build of configuration Debug for project APP ****
+make all 
+make: Nothing to be done for `all'.
+14:42:35 **** Auto Build of configuration Debug for project APP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:10:0:
+../../APP_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../APP_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:38:5: warning: variable 'sendbuf' set but not used [-Wunused-but-set-variable]
+  u8 sendbuf[TEST_BUFFER_SIZE];
+     ^~~~~~~
+../src/main.c:36:5: warning: variable 'tx_count' set but not used [-Wunused-but-set-variable]
+  u8 tx_count;
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: APP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../APP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "APP.elf"  ./src/OLED.o ./src/SysInitialize.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP.elf  |tee "APP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19060	    460	   3584	  23104	   5a40	APP.elf
+'Finished building: APP.elf.size'
+' '
+14:42:41 **** Incremental Build of configuration Debug for project APP ****
+make all 
+make: Nothing to be done for `all'.
+14:43:43 **** Auto Build of configuration Debug for project APP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:10:0:
+../../APP_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../APP_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:38:5: warning: variable 'sendbuf' set but not used [-Wunused-but-set-variable]
+  u8 sendbuf[TEST_BUFFER_SIZE];
+     ^~~~~~~
+../src/main.c:36:5: warning: variable 'tx_count' set but not used [-Wunused-but-set-variable]
+  u8 tx_count;
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: APP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../APP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "APP.elf"  ./src/OLED.o ./src/SysInitialize.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP.elf  |tee "APP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19080	    460	   3580	  23120	   5a50	APP.elf
+'Finished building: APP.elf.size'
+' '
+14:43:48 **** Incremental Build of configuration Debug for project APP ****
+make all 
+make: Nothing to be done for `all'.
+14:44:15 **** Auto Build of configuration Debug for project APP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:10:0:
+../../APP_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../APP_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c:20:0: warning: "LED_DELAY" redefined
+ #define LED_DELAY     10000000
+ 
+In file included from ../src/main.c:13:0:
+../src/SysInitialize.h:48:0: note: this is the location of the previous definition
+ #define LED_DELAY     50000000
+ 
+../src/main.c: In function 'main':
+../src/main.c:39:5: warning: variable 'sendbuf' set but not used [-Wunused-but-set-variable]
+  u8 sendbuf[TEST_BUFFER_SIZE];
+     ^~~~~~~
+../src/main.c:37:5: warning: variable 'tx_count' set but not used [-Wunused-but-set-variable]
+  u8 tx_count;
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: APP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../APP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "APP.elf"  ./src/OLED.o ./src/SysInitialize.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP.elf  |tee "APP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19080	    460	   3580	  23120	   5a50	APP.elf
+'Finished building: APP.elf.size'
+' '
+14:44:20 **** Incremental Build of configuration Debug for project APP ****
+make all 
+'Building file: ../src/SysInitialize.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SysInitialize.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/SysInitialize.d" -MT"src/SysInitialize.o" -o "src/SysInitialize.o" "../src/SysInitialize.c"
+'Finished building: ../src/SysInitialize.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:10:0:
+../../APP_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../APP_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:39:5: warning: variable 'sendbuf' set but not used [-Wunused-but-set-variable]
+  u8 sendbuf[TEST_BUFFER_SIZE];
+     ^~~~~~~
+../src/main.c:37:5: warning: variable 'tx_count' set but not used [-Wunused-but-set-variable]
+  u8 tx_count;
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: APP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../APP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "APP.elf"  ./src/OLED.o ./src/SysInitialize.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP.elf  |tee "APP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19080	    460	   3580	  23120	   5a50	APP.elf
+'Finished building: APP.elf.size'
+' '
+14:45:48 **** Auto Build of configuration Debug for project APP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:10:0:
+../../APP_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../APP_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:39:5: warning: variable 'sendbuf' set but not used [-Wunused-but-set-variable]
+  u8 sendbuf[TEST_BUFFER_SIZE];
+     ^~~~~~~
+../src/main.c:37:5: warning: variable 'tx_count' set but not used [-Wunused-but-set-variable]
+  u8 tx_count;
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: APP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../APP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "APP.elf"  ./src/OLED.o ./src/SysInitialize.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP.elf  |tee "APP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19080	    460	   3580	  23120	   5a50	APP.elf
+'Finished building: APP.elf.size'
+' '
+14:45:54 **** Incremental Build of configuration Debug for project APP ****
+make all 
+make: Nothing to be done for `all'.
+14:52:32 **** Auto Build of configuration Debug for project APP ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../APP_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:10:0:
+../../APP_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../APP_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:39:5: warning: variable 'sendbuf' set but not used [-Wunused-but-set-variable]
+  u8 sendbuf[TEST_BUFFER_SIZE];
+     ^~~~~~~
+../src/main.c:37:5: warning: variable 'tx_count' set but not used [-Wunused-but-set-variable]
+  u8 tx_count;
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: APP.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../APP_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "APP.elf"  ./src/OLED.o ./src/SysInitialize.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: APP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size APP.elf  |tee "APP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19144	    460	   3580	  23184	   5a90	APP.elf
+'Finished building: APP.elf.size'
+' '
+14:52:36 **** Incremental Build of configuration Debug for project APP ****
+make all 
+make: Nothing to be done for `all'.
